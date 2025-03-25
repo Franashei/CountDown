@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Indie+Flower&family=Redacted+Script&family=Rubik+Puddles&family=Stick+No+Bills:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* Apila los elementos en columna */
+    align-items: center;
+    /* Centra el texto */
+    font-size: 50px;
+}
+
+.clock {
+    font-family: "Stick No Bills", sans-serif;
+    color: #ff0000;
+}
