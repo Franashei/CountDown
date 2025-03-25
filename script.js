@@ -1225,8 +1225,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function actualizarTimer() {
-        // const fechaObjetivo = new Date(2025, 3, 11, 14, 40, 0);
-        const fechaObjetivo = new Date(2025, 2, 25, 3, 0, 40);
+        const fechaObjetivo = new Date(2025, 3, 11, 14, 40, 0);
+        // const fechaObjetivo = new Date(2025, 2, 25, 3, 0, 40);
         // const ahora = new Date(2025, 3, 11, 14, 40, 0);
         const ahora = new Date();
         const diferencia = fechaObjetivo - ahora;
