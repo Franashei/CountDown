@@ -1225,7 +1225,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function actualizarTimer() {
-        const fechaObjetivo = new Date(2025, 3, 11, 14, 40, 0);
+        const fechaObjetivo = new Date(2025, 4, 14, 21, 30, 0);
         // const fechaObjetivo = new Date(2025, 2, 25, 3, 0, 40);
         // const ahora = new Date(2025, 3, 11, 14, 40, 0);
         const ahora = new Date();
@@ -1236,7 +1236,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const timerElement = document.getElementById("timer");
             timerElement.style.fontFamily = '"Rubik Puddles", system-ui';
             timerElement.style.color = "#6bf0ff";
-            timerElement.innerHTML = `ES HOOY !! <br> <br> ES HOOY !!`;
+            timerElement.innerHTML = `TE AMO  <br> <br> MUY MUCHO !!`;
 
             cambiarEstilo()
             return;
